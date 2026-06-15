@@ -43,7 +43,7 @@ if menu == "Home":
     col1, col2 = st.columns([1,2])
 
     with col1:
-        st.image("assets/profile.jpeg", width=250)
+        st.image("profile.jpeg", width=250)
     with col2:
         st.title("Jagadeeswar Rallapalli")
         st.subheader("Computer Science Engineering Student")
@@ -62,7 +62,7 @@ if menu == "Home":
         ✔ Artificial Intelligence
         """)
         st.success("Seeking Internship & Software Development Opportunities")
-        with open("assets/resume.pdf","rb") as pdf:
+        with open("resume.pdf","rb") as pdf:
             st.download_button(
                 "📄 Download Resume",
                 pdf,
@@ -90,7 +90,7 @@ elif menu == "Projects":
     st.header("🚀 Projects")
     col1, col2 = st.columns([1,2])
     with col1:
-        st.image("assets/ai_career_chatbot.png")
+        st.image("ai_career_chatbot.png")
 
     with col2:
         st.subheader("AI Career Guidance Chatbot")
@@ -111,7 +111,7 @@ elif menu == "Projects":
     st.divider()
     col1, col2 = st.columns([1,2])
     with col1:
-        st.image("assets/car_price.png")
+        st.image("car_price.png")
     with col2:
         st.subheader("Car Price Prediction System")
         st.write("""
@@ -127,7 +127,7 @@ elif menu == "Projects":
     st.divider()
     col1, col2 = st.columns([1,2])
     with col1:
-        st.image("assets/movie_recommendation.png")
+        st.image("movie_recommendation.png")
     with col2:
         st.subheader("Movie Recommendation System")
         st.write("""
@@ -146,7 +146,7 @@ elif menu == "Projects":
     col1, col2 = st.columns([1,2])
 
     with col1:
-        st.image("assets/todo_list.png")
+        st.image("todo_list.png")
 
     with col2:
         st.subheader("To-Do List Management Application")
